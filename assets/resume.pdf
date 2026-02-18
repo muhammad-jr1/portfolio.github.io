@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad JR - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #64748b;
+            --accent: #3b82f6;
+            --bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--primary);
+            margin: 0;
+            padding: 40px;
+            line-height: 1.5;
+            background: var(--bg);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: var(--accent);
+        }
+
+        .header p {
+            margin: 5px 0;
+            color: var(--secondary);
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: var(--accent);
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .item-sub {
+            color: var(--secondary);
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        .item-desc {
+            font-size: 13px;
+            margin-top: 5px;
+            color: #334155;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        li {
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>MUHAMMAD JR</h1>
+        <p>Cybersecurity Specialist | AI-Driven Developer | Founder of Thoolikaajaalakam</p>
+        <p>Thiruvananthapuram, Kerala | +91 6238724428 | aanvellermuhammad@gmail.com</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p class="item-desc">A visionary technologist specializing in cybersecurity and digital ecosystem development.
+            Proven track record in ethical hacking, open-source contribution, and leading digital communities.
+            Passionate about leveraging AI tools to architect secure and human-centric solutions.</p>
+    </div>
+
+    <div class="grid">
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Founder & CEO</span>
+                    <span>2020 - Present</span>
+                </div>
+                <div class="item-sub">Thoolikaajaalakam (E-Magazine)</div>
+                <p class="item-desc">Bridging technology and Malayalam literature. Leading editorial teams and
+                    maintaining digital platforms.</p>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Volunteer Experience</span>
+                    <span>Recent</span>
+                </div>
+                <div class="item-sub">NSS (National Service Scheme)</div>
+                <p class="item-desc">Leading community initiatives and social engineering projects.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Bachelor of Computer Applications (BCA)</span>
+                    <span>Ongoing</span>
+                </div>
+                <div class="item-sub">Specializing in Cybersecurity</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Higher Secondary (+2)</span>
+                    <span>2024 - 2026</span>
+                </div>
+                <div class="item-sub">Completed with High Distinction</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Secondary School (10th)</span>
+                    <span>Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Skills & Expertise</div>
+        <div class="grid">
+            <div>
+                <strong>Technical:</strong>
+                <ul>
+                    <li>Cybersecurity & Ethical Hacking</li>
+                    <li>Linux Architecture & Kernel Mastery</li>
+                    <li>C++, JavaScript, Python</li>
+                    <li>AI-Driven Development (Cursor, Antigravity)</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Leadership:</strong>
+                <ul>
+                    <li>Project & Community Management</li>
+                    <li>Digital Governance Innovation</li>
+                    <li>Public Speaking & Mentoring</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <ul>
+            <li>Cybersecurity (Intro to Cybersecurity & Ethical Hacking)</li>
+            <li>Operating Systems (Linux/Android Fundamentals)</li>
+            <li>Little KITEs Merit Certificate</li>
+            <li>Date with Git (Brototype)</li>
+        </ul>
+    </div>
+</body>
+
+</html>
